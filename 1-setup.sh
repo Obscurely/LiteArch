@@ -292,13 +292,13 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 # Create user
 if ! source install.conf; then
   read -p "Please enter username:" username
-  echo "username=$username" >>/root/ArchObscurely/install.conf
+  echo "username=$username" >>/root/LiteArch/install.conf
 fi
 if [ $(whoami) = "root" ]; then
   useradd -m -G wheel -s /bin/bash $username
   passwd $username
-  cp -R /root/ArchObscurely /home/$username/
-  chown -R $username: /home/$username/ArchObscurely
+  cp -R /root/LiteArch/home/$username/
+  chown -R $username: /home/$username/LiteArch
   read -p "Please name your machine:" nameofmachine
   echo $nameofmachine >/etc/hostname
 else

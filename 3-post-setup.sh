@@ -97,7 +97,7 @@ sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 
 # Delete left over folders
-rm -rf $HOME/ArchObscurely
+rm -rf $HOME/LiteArch
 rm -rf $HOME/yay
 
 # Replace in the same state

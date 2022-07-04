@@ -61,7 +61,7 @@ yay -Syyu --noconfirm
 echo "Customizing system"
 
 # copy backgrounds to their folder and link them
-cp $HOME/ArchObscurely/background.jpg $HOME/Documents/background.jpg
+cp $HOME/LiteArch/background.jpg $HOME/Documents/background.jpg
 sudo ln -s "$HOME/Documents/background.jpg" /usr/share/backgrounds/background.jpg
 
 # installing polybar themes
@@ -82,8 +82,8 @@ tar zxvf theme.tar.gz
 rm theme.tar.gz
 cd ..
 sudo mv glorious/ /usr/share/lightdm-webkit/themes/
-sudo cp $HOME/ArchObscurely/lightdm/lightdm.conf /etc/lightdm/lightdm.conf
-sudo cp $HOME/ArchObscurely/lightdm/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
+sudo cp $HOME/LiteArch/lightdm/lightdm.conf /etc/lightdm/lightdm.conf
+sudo cp $HOME/LiteArch/lightdm/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
 
 # installing rofi themes
 cd $HOME/Downloads/
@@ -119,7 +119,7 @@ sudo make install
 
 # copy over dotfiles
 export PATH=$PATH:~/.local/bin
-cp -r $HOME/ArchObscurely/dotfiles/* $HOME/.config/
+cp -r $HOME/LiteArch/dotfiles/* $HOME/.config/
 sleep 3 # wait 3 to make sure it copyed
 
 # installing nvidia-tkg driver
