@@ -65,10 +65,10 @@ bspc rule -a obsidian 		desktop='^2' 	follow=on
 bspc rule -a NeoVim 		desktop='^2' 	follow=on # Open the NeoVim terminal window done by keybinds super + v on the second desktop
 bspc rule -a Sonixd 		desktop='^5' 	follow=on
 
-# Set resolution
-xrandr --output DVI-D-0 --mode 1920x1080 --rate 144
-xrandr --output DP-0 --mode 2560x1440 --rate 165
-xrandr --output DP-0 --primary --left-of DVI-D-0
+# Set resolution # commented out for now
+# xrandr --output DVI-D-0 --mode 1920x1080 --rate 144
+# xrandr --output DP-0 --mode 2560x1440 --rate 165
+# xrandr --output DP-0 --primary --left-of DVI-D-0
 
 # Disable mouse acceleration
 xset m 1/1 0
