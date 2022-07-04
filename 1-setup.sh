@@ -297,7 +297,7 @@ fi
 if [ $(whoami) = "root" ]; then
   useradd -m -G wheel -s /bin/bash $username
   passwd $username
-  cp -R /root/LiteArch/home/$username/
+  cp -R /root/LiteArch /home/$username/
   chown -R $username: /home/$username/LiteArch
   read -p "Please name your machine:" nameofmachine
   echo $nameofmachine >/etc/hostname
