@@ -122,6 +122,9 @@ PKGS=(
   'htop'                        # console procces viewer
   'inkscape'                    # for compiling the cursor and useful for other themes
   'iptables-nft'                # iptables nft
+  'iw'							# wifi
+  'iwd'							# wifi
+  'iwctl'						# wifi
   'keepassxc'                   # offline password manager
   'kitty'                       # terminal
   'lib32-alsa-lib'              # sound lib32

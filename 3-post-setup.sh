@@ -13,6 +13,7 @@ sudo systemctl disable dhcpcd.service
 sudo systemctl stop dhcpcd.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl enable libvirtd.service
+systemctl enable --now iwd.service # enable wifi service
 
 echo "-------------------------------------------------"
 echo "-              Tweaking Arch a bit              -"
@@ -64,7 +65,6 @@ done
 echo -e "\nEnableing Services and Tweaking\n"
 
 systemctl --user enable gamemoded && systemctl --user start gamemoded
-systemctl enable --now earlyoom
 sudo sysctl -w net.core.netdev_max_backlog = 16384
 sudo sysctl -w net.core.somaxconn = 8192
 sudo sysctl -w net.core.rmem_default = 1048576
