@@ -91,6 +91,7 @@ echo "
 "
 
 # Delete left over folders
+sudo rm -rf /home/$(whoami)/Downloads/*
 sudo rm -rf /home/$(whoami)/ArchObscurely
 sudo rm -rf /home/$(whoami)/yay
 sudo rm -rf /home/$(whoami)/go
