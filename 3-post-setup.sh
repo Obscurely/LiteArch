@@ -13,7 +13,8 @@ sudo systemctl disable dhcpcd.service
 sudo systemctl stop dhcpcd.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl enable libvirtd.service
-systemctl enable --now iwd.service # enable wifi service
+sudo systemctl enable --now iwd.service # enable wifi service
+sudo systemctl enable --now dhclient@wlan0 # enable dhclient for wireless interface
 
 echo "-------------------------------------------------"
 echo "-              Tweaking Arch a bit              -"
