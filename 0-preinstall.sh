@@ -99,7 +99,7 @@ echo "-     Arch Install on Main Drive     -"
 echo "--------------------------------------"
 pacstrap /mnt base base-devel linux linux-firmware vim sudo archlinux-keyring dosfstools f2fs-tools xfsprogs grub efibootmgr wget libnewt --noconfirm --needed
 genfstab -U /mnt >>/mnt/etc/fstab
-echo "keyserver hkp://keyserver.ubuntu.com" >> /mnt/etc/pacman.d/gnupg/gpg.conf
+echo "keyserver hkp://keyserver.ubuntu.com" >>/mnt/etc/pacman.d/gnupg/gpg.conf
 umount "/dev/nvme0n1p1" # umounts boot in order to mount when in arch-chroot for the grub installation to work.
 echo "--------------------------------------"
 echo "-    SYSTEM READY FOR 1-setup        -"
