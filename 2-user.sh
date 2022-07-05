@@ -113,6 +113,10 @@ chmod +x install.sh
 ./install.sh -c dark -s standard
 sleep 3 # wait 3 to make sure it installed
 
+# install papirus orange icons
+cd $HOME/Downloads/
+aria2c "https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTY1NDQ5NzIwOSwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiJlYzk4OTJlN2EwNzFmZjk3MjBkMzJkNjViZTBiZGRmOGZkZjVhNTU5NjM1ODQ3OTdiNWExYjZmODczZmQwZGRlNmVkNTRlN2VlNmMzOTkzMzU1OGIzN2YxNmYwYWE2NWRjNzdiZmMxNmFiZmFlM2RkNjA4ZWZiMzA1ZDY4NTY3NiIsInQiOjE2NTcwNDA2MTgsInN0ZnAiOiI1YjMzNmVlMDgwYjYwOGVmMzJlZGIwMmI5YjFlOGM0NiIsInN0aXAiOiI3OS4xMTIuNTEuMjUifQ.1QpWV2D2KnlFyY931ABxQ-Z3xeHdOs528S8GQLj_CEQ/papirus-icon-theme-orange-folders.tar.xz"
+
 # install volante cursor theme
 cd $HOME/Downloads/
 git clone https://github.com/varlesh/volantes-cursors.git
