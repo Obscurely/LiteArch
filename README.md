@@ -23,3 +23,34 @@ And now run the install script wait for any prompts during installation, should 
 ```shell
 ./archobscurely.sh
 ```
+## Screenshots
+
+### Desktop 1
+![screen1](screenshots/Desktop1.png)
+
+### Screen 2
+![screen2](screenshots/Desktop2.png)
+
+### App launcher
+![app launcher](screenshots/Launcher.png)
+
+### Quick apps
+![quick apps](screenshots/QuickApps.png)
+
+### App switcher
+![app switcher](screenshots/Switcher.png)
+
+### Power Menu
+![powermenu](screenshots/Powermenu.png)
+
+### Date & Time
+![time](screenshots/Date.png)
+
+### Terms side by side
+![terms](screenshots/Terminals.png)
+
+### Browsers side by side
+![browsers](screenshots/Browsers.png)
+
+### IDE
+![ide](screenshots/IDE.png)
