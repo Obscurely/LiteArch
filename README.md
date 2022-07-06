@@ -19,7 +19,7 @@ git clone https://github.com/Obscurely/ArchObscurely
 ```shell
 cd ArchObscurely
 ```
-And now run the install script wait for any prompts during installation, should take about 5-15 minutes depending on your machine
+And now run the install script wait for any prompts during installation, should take about 5-15 minute or up to an hour depending on your machine
 ```shell
 ./archobscurely.sh
 ```
