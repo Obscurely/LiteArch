@@ -1,7 +1,7 @@
 * {
     background:                     #202020;
     background-alt:                 #C7493A;
-    foreground:                     #AD8174;
+    foreground:                     #1f1715;
     border:               			#C7493A;
     border-alt:               		#AD8174;
     selected:               		#A33327;
