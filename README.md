@@ -26,10 +26,10 @@ And now run the install script wait for any prompts during installation, should 
 ## Screenshots
 
 ### Desktop 1
-![screen1](screenshots/Desktop1.png)
+![desktop1](screenshots/Desktop1.png)
 
-### Screen 2
-![screen2](screenshots/Desktop2.png)
+### Desktop 2
+![desktop2](screenshots/Desktop2.png)
 
 ### App launcher
 ![app launcher](screenshots/Launcher.png)
